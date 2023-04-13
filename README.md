@@ -2,15 +2,15 @@
 
 Based on the given input ranges and possible output dates, the following equivalence class test cases can be designed:
 
-1.Valid input for a non-leap year:
+1. Valid input for a non-leap year:
 Input: day = 15, month = 2, year = 2000
 Expected Output: Invalid date (February 15 is not a valid date in a non-leap year)
 
-2.Valid input for a leap year:
+2. Valid input for a leap year:
 Input: day = 29, month = 2, year = 2000
 Expected Output: February 28, 2000 (previous date)
 
-3.Valid input for a non-leap year, end of the month:
+3. Valid input for a non-leap year, end of the month:
 Input: day = 31, month = 3, year = 2001
 Expected Output: March 30, 2001 (previous date)
 
