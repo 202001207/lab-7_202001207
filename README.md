@@ -46,7 +46,7 @@ Expected Output: Invalid date (day must be between 1 and 31, month must be betwe
 Input: day = 0, month = 5, year = 2018
 Expected Output: Invalid date (day must be between 1 and 31, year must be between 1900 and 2015)
 
-12.Invalid input for month and year:
+12. Invalid input for month and year:
 Input: day = 29, month = 13, year = 1899
 Expected Output: Invalid date (month must be between 1 and 12, year must be between 1900 and 2015)
 
